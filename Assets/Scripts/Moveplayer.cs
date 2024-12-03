@@ -25,6 +25,7 @@ public class Moveplayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PauseMenu.GamePaused) return;
         inputVector.x = Input.GetAxis("Horizontal");
         inputVector.y = Input.GetAxis("Vertical");
         Vector2 dir = Vector2.zero;
@@ -59,6 +60,7 @@ public class Moveplayer : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (PauseMenu.GamePaused) return;
         Vector2 movement = inputVector * speed * Time.fixedDeltaTime;
        rigidBody2D.MovePosition(rigidBody2D.position + movement);
 

@@ -6,30 +6,38 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private AudioSource SFXSource;
+    [SerializeField] private AudioClip buttonClickSound;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     public void StartGame()
     {
-        SceneManager.LoadScene(2);
+        PlayButtonClickSound();
+        StartCoroutine(LoadSceneWithDelay(2));
     }
-     public void QuitGame()
+    public void QuitGame()
     {
+        PlayButtonClickSound();
         Application.Quit();
     }
 
     public void Options()
     {
-        SceneManager.LoadScene(1);
-    }
+        PlayButtonClickSound();
 
- 
+        StartCoroutine(LoadSceneWithDelay(1));
+    }
+    public void PlayButtonClickSound()
+    {
+        if (SFXSource != null && buttonClickSound != null)
+        {
+            SFXSource.PlayOneShot(buttonClickSound);
+
+        }
+    }
+    IEnumerator LoadSceneWithDelay(int sceneIndex)
+    {
+        yield return new WaitForSeconds(buttonClickSound.length); 
+        SceneManager.LoadScene(sceneIndex);
+    }
 }

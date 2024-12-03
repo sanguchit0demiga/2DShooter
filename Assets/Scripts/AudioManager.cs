@@ -10,9 +10,22 @@ public class AudioManager : MonoBehaviour
     public AudioClip background;
     public AudioClip death;
     public AudioClip shoot;
+    private static AudioManager instance;
+    private void Awake()
+    {
+      
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject); 
+        }
+        else
+        {
+            Destroy(gameObject);  
+        }
+    }
 
-
-   private void Start()
+    private void Start()
     {
         musicSource.clip= background;
         musicSource.Play();
