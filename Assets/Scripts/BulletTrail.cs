@@ -30,21 +30,35 @@ public class BulletTrail : MonoBehaviour
 
         if (hit)
         {
-            FindObjectOfType<Enemy>().TakeDamage(1);
+           
+            if (hit.collider.CompareTag("Enemy"))
+            {
+                
+                BlackCatEnemy enemy = hit.collider.GetComponent<BlackCatEnemy>();
+                if (enemy != null)
+                {
+                  //  enemy.TakeDamage(1);
+                }
+            }
+
+         
             lineRenderer.SetPosition(1, hit.point);
         }
         else
         {
+            
             lineRenderer.SetPosition(1, (Vector2)shootPoint.position + direction * distance);
         }
 
+        
         StartCoroutine(ShowLaser());
-    }
 
-    IEnumerator ShowLaser()
+        IEnumerator ShowLaser()
     {
         lineRenderer.enabled = true;
         yield return new WaitForSeconds(0.1f);
         lineRenderer.enabled = false;
     }
+    }
 }
+

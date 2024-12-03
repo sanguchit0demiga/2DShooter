@@ -1,56 +1,59 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class PauseMenu : MonoBehaviour
 {
     public static bool GamePaused = false;
 
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private GameObject pauseMenu;
-    private bool gamePaused = false;
     [SerializeField] private AudioSource backgroundMusic;
 
-    public void Update()
+    void Update()
     {
-      if (Input.GetKeyDown(KeyCode.Escape)) {
-            if (gamePaused) {   
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (GamePaused)
+            {
                 Resume();
-                 }
-            else {
+            }
+            else
+            {
                 Pause();
             }
-
         }
     }
 
     public void Pause()
     {
-        gamePaused = true;
+        GamePaused = true;
         Time.timeScale = 0f;
         pauseButton.SetActive(false);
         pauseMenu.SetActive(true);
-        backgroundMusic.Pause();
+        AudioListener.pause = true; 
     }
 
     public void Resume()
     {
-        gamePaused = false;
+        GamePaused = false;
         Time.timeScale = 1f;
         pauseButton.SetActive(true);
         pauseMenu.SetActive(false);
-        backgroundMusic.UnPause();
+        AudioListener.pause = false; 
     }
 
     public void Restart()
     {
-        gamePaused = false;
+        GamePaused = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        AudioListener.pause = false;
     }
+
     public void Quit()
     {
-       Application.Quit();
+        Application.Quit();
     }
 }

@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 7eac5270efcdc4043bccba1af8e50f1d
+guid: add0d0879a881864ca76e2d8f2f6e9f6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,12 +20,11 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,8 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -77,7 +74,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +86,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,33 +98,19 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cat-5-Walk_0
+      name: Cat-1-Run_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 18
-        width: 24
-        height: 15
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc7781e0f5d47ba499bc724e8ce41cc6
-      internalID: -120382413
+      spriteID: 1cf83ab10fdacd048b2ff30e5cd0d9e5
+      internalID: -1424305560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-5-Walk_1
+      name: Cat-1-Run_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 18
-        width: 25
-        height: 14
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e85c5bd3b98073047a73572ae48c5d1a
-      internalID: -53437608
+      spriteID: 2e7841314cc12254bbd1771a9f0d4f50
+      internalID: -1763267072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-5-Walk_2
+      name: Cat-1-Run_2
       rect:
         serializedVersion: 2
-        x: 112
-        y: 18
-        width: 25
-        height: 15
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc105dbb8dda80e449a14f5acc23c48d
-      internalID: -2059977703
+      spriteID: 0bf0e3687992f5f45bd0f326389de582
+      internalID: 1740150837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-5-Walk_3
+      name: Cat-1-Run_3
       rect:
         serializedVersion: 2
-        x: 161
-        y: 18
-        width: 26
-        height: 15
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e63fbeb2719adb540ad9b626ed3f8115
-      internalID: 1536460439
+      spriteID: 0928cd43310b79549abaef7fd3bb21f2
+      internalID: 2099902667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-5-Walk_4
+      name: Cat-1-Run_4
       rect:
         serializedVersion: 2
-        x: 211
-        y: 18
-        width: 26
-        height: 15
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1397f6731125ae94993bc91b144ec3ec
-      internalID: 622281952
+      spriteID: e9b362e50a6067743ae366c3fb579461
+      internalID: -699049130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-5-Walk_5
+      name: Cat-1-Run_5
       rect:
         serializedVersion: 2
-        x: 262
-        y: 18
-        width: 25
-        height: 14
+        x: 250
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2f30fba39ee9b7489ff7ca75cf9543e
-      internalID: -450208284
+      spriteID: f58dfc9cd006a0146872bfd857f7c225
+      internalID: -1561419467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-5-Walk_6
+      name: Cat-1-Run_6
       rect:
         serializedVersion: 2
-        x: 312
-        y: 18
-        width: 25
-        height: 15
+        x: 300
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b9408dde3be4a14d8e94f13e303ec97
-      internalID: 879543801
+      spriteID: 2c0753893fc3b8d43ada413c2551a309
+      internalID: -2132358932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-5-Walk_7
+      name: Cat-1-Run_7
       rect:
         serializedVersion: 2
-        x: 363
-        y: 18
-        width: 24
-        height: 15
+        x: 350
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c87ecfaff24279c4cb9695e8d39e36ae
-      internalID: 360975890
+      spriteID: 4f8ccd09d05fe9a43b015facb7a857d5
+      internalID: 1257282901
       vertices: []
       indices: 
       edges: []
@@ -301,16 +282,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cat-5-Walk_0: -120382413
-      Cat-5-Walk_1: -53437608
-      Cat-5-Walk_2: -2059977703
-      Cat-5-Walk_3: 1536460439
-      Cat-5-Walk_4: 622281952
-      Cat-5-Walk_5: -450208284
-      Cat-5-Walk_6: 879543801
-      Cat-5-Walk_7: 360975890
-  mipmapLimitGroupName: 
+      Cat-1-Run_5: -1561419467
+      Cat-1-Run_7: 1257282901
+      Cat-1-Run_2: 1740150837
+      Cat-1-Run_4: -699049130
+      Cat-1-Run_0: -1424305560
+      Cat-1-Run_6: -2132358932
+      Cat-1-Run_1: -1763267072
+      Cat-1-Run_3: 2099902667
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

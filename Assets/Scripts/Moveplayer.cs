@@ -9,7 +9,7 @@ public class Moveplayer : MonoBehaviour
     public float speed = 2f;
     private Animator animator;
     AudioManager audioManager;
-
+    
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -25,6 +25,10 @@ public class Moveplayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!PauseMenu.GamePaused && Input.GetMouseButtonDown(0)) 
+        {
+            audioManager.PlaySFX(audioManager.shoot);
+        }
         if (PauseMenu.GamePaused) return;
         inputVector.x = Input.GetAxis("Horizontal");
         inputVector.y = Input.GetAxis("Vertical");
@@ -54,6 +58,10 @@ public class Moveplayer : MonoBehaviour
         {
             audioManager.PlaySFX(audioManager.shoot);
 
+        }
+        if (!PauseMenu.GamePaused && Input.GetMouseButtonDown(0)) 
+        {
+            audioManager.PlaySFX(audioManager.shoot);
         }
     }
 
