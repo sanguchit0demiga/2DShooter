@@ -8,14 +8,18 @@ public class Moveplayer : MonoBehaviour
     public Vector2 inputVector;
     public float speed = 2f;
     private Animator animator;
-    
+    AudioManager audioManager;
 
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+
+    }
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -45,8 +49,13 @@ public class Moveplayer : MonoBehaviour
             dir.y = -1;
             animator.SetInteger("Direction", 0);
         }
+        if (Input.GetMouseButtonDown(0))
+        {
+            audioManager.PlaySFX(audioManager.shoot);
+
+        }
     }
-    
+
 
     void FixedUpdate()
     {

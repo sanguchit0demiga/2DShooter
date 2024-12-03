@@ -8,6 +8,7 @@ TagManager:
   - Rifle
   - Enemy
   - Hands
+  - Audio
   layers:
   - Default
   - TransparentFX
