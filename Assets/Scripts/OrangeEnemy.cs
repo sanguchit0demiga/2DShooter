@@ -4,30 +4,21 @@ using UnityEngine;
 
 public class OrangeEnemy : MonoBehaviour
 {
-    [SerializeField] private int health;
-    [SerializeField] private GameObject death;
+    [SerializeField] private float timeBetweenShoots;
+    [SerializeField] private GameObject projectilePrefab;
     private Animator animator;
 
 
-    public void TakeDamage(int damage)
+    public void Start()
     {
-        animator = GetComponent<Animator>();
-
-        health -= damage;
-        if (health <= 0)
-        {
-            Die();
-        }
-        health -= damage;
+        StartCoroutine(Shoot());
     }
 
-    private void Die()
+   IEnumerator Shoot()
     {
-        if (death != null)
-        {
-            // Instantiate(death, transform.position, Quaternion.identity);
-        }
-        Destroy(gameObject);
+        while (true) {
+        yield return new WaitForSeconds(timeBetweenShoots);
+        Instantiate(projectilePrefab, transform.position,Quaternion.identity);
+    }
     }
 }
-
