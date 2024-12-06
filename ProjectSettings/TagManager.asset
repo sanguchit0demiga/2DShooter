@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Hands
   - Audio
+  - Waypoint
   layers:
   - Default
   - TransparentFX

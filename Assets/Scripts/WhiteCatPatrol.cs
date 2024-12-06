@@ -14,19 +14,20 @@ public class WhiteCatPatrol : MonoBehaviour
     private bool isWaiting = false;
     private SpriteRenderer spriteRenderer;
     private float health;
-
+    public static int enemiesKilled = 0;
 
     public void Start()
     {
         health = maxHealth;
         healthBar.UpdateHealthBar(maxHealth, health);
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+
     }
 
     public void TakeDamage(float damage)
     {
         StartCoroutine(GetDamage(damage));
-
     }
 
     IEnumerator GetDamage(float damage)
@@ -34,7 +35,6 @@ public class WhiteCatPatrol : MonoBehaviour
         float damageDuration = 0.1f;
         health -= damage;
         healthBar.UpdateHealthBar(maxHealth, health);
-
 
         if (health > 0f)
         {
@@ -44,31 +44,28 @@ public class WhiteCatPatrol : MonoBehaviour
         }
         else
         {
-            //Gamemanager.Instance.AddScore(100);
             Instantiate(DieEffect, transform.position, Quaternion.identity);
+            GameController.EnemyKilled();
             Destroy(gameObject);
         }
     }
 
     void Update()
     {
-        if (!isWaiting) 
+        if (!isWaiting)
         {
             Patrol();
         }
-        }
-    
+    }
 
     private void Patrol()
     {
-    
         if (transform.position != waypoints[currentWaypoint].position)
         {
             transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypoint].position, speed * Time.deltaTime);
         }
         else
         {
-
             StartCoroutine(Wait());
         }
     }
@@ -84,14 +81,12 @@ public class WhiteCatPatrol : MonoBehaviour
             currentWaypoint = 0;
         }
 
-       
         Flip();
         isWaiting = false;
     }
 
     private void Flip()
     {
-        
         if (transform.position.x > waypoints[currentWaypoint].position.x)
         {
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);

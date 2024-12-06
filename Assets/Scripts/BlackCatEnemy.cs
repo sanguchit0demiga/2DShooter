@@ -1,26 +1,26 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
 
 public class BlackCatEnemy : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float minDistance;
-    [SerializeField] private Transform player;
     [SerializeField] private GameObject DieEffect;
     [SerializeField] private float maxHealth;
-    [SerializeField] private Image healthBar; 
+    [SerializeField] private Image healthBar;
 
     private float health;
     private SpriteRenderer spriteRenderer;
     private bool isFacingRight = true;
-
+    private Transform player;
+    public static int enemiesKilled = 0;
     private void Start()
     {
         health = maxHealth;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
 
-       
         if (healthBar != null)
         {
             healthBar.fillAmount = 1f;
@@ -41,13 +41,11 @@ public class BlackCatEnemy : MonoBehaviour
     {
         health -= damage;
 
-
         if (healthBar != null)
         {
-            healthBar.fillAmount = health / maxHealth; 
+            healthBar.fillAmount = health / maxHealth;
         }
 
-        
         if (health > 0f)
         {
             spriteRenderer.color = Color.red;
@@ -56,8 +54,8 @@ public class BlackCatEnemy : MonoBehaviour
         }
         else
         {
-           
             Instantiate(DieEffect, transform.position, Quaternion.identity);
+            GameController.EnemyKilled();
             Destroy(gameObject);
         }
     }
@@ -79,7 +77,6 @@ public class BlackCatEnemy : MonoBehaviour
 
     private void Attack()
     {
-        
     }
 
     private void Flip(bool isPlayerRight)
@@ -92,5 +89,8 @@ public class BlackCatEnemy : MonoBehaviour
             transform.localScale = scale;
         }
     }
-}
+    void UpdateEnemiesKilledText()
+    {
 
+    }
+}

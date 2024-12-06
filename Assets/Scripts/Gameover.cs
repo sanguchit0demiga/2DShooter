@@ -8,18 +8,32 @@ using UnityEngine.SceneManagement;
 
 public class Gameover : MonoBehaviour
 {
-    
+    [SerializeField] private AudioSource SFXSource;
+    [SerializeField] private AudioClip buttonClickSound;
     public void QuitGame()
     {
-        
+        PlayButtonClickSound();
         Application.Quit();
     }
 
     public void Restart()
     {
-
+        PlayButtonClickSound();
         SceneManager.LoadScene("Game");
         
+    }
+
+    private void PlayButtonClickSound()
+    {
+        if (SFXSource != null && buttonClickSound != null)
+        {
+            SFXSource.PlayOneShot(buttonClickSound);  
+        }
+    }
+    private IEnumerator RestartWithDelay()
+    {
+        yield return new WaitForSeconds(buttonClickSound.length);  
+        SceneManager.LoadScene("Game");  
     }
 }
 
