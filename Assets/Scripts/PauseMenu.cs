@@ -10,7 +10,8 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private AudioSource backgroundMusic;
-
+    [SerializeField] private GameObject healthBar;
+    [SerializeField] private GameObject scoreText;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -32,7 +33,9 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         pauseButton.SetActive(false);
         pauseMenu.SetActive(true);
-        AudioListener.pause = true; 
+        AudioListener.pause = true;
+        healthBar.SetActive(false);
+        scoreText.SetActive(false);
     }
 
     public void Resume()
@@ -41,7 +44,9 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         pauseButton.SetActive(true);
         pauseMenu.SetActive(false);
-        AudioListener.pause = false; 
+        AudioListener.pause = false;
+        healthBar.SetActive(true);
+        scoreText.SetActive(true);
     }
 
     public void Restart()

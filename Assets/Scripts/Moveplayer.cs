@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Moveplayer : MonoBehaviour
 {
+    [SerializeField] private float vida;
+    [SerializeField] private float maxvida;
+    [SerializeField] private Healthbarch barraDeVida;
+
     private Rigidbody2D rigidBody2D;
     public Vector2 inputVector;
     public float speed = 2f;
@@ -17,12 +22,25 @@ public class Moveplayer : MonoBehaviour
     }
     void Start()
     {
+        vida = maxvida;
+        barraDeVida.InicializarBarraDeVida(vida);
+
         rigidBody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
-    // Update is called once per frame
+    public void TakeDamage(float daño)
+    {
+        vida -= daño;
+        barraDeVida.CambiarVidaActual(vida);
+        if (vida <= 0)
+        {
+            Die();
+
+        }
+    }
+
     void Update()
     {
         if (!PauseMenu.GamePaused && Input.GetMouseButtonDown(0)) 
@@ -72,6 +90,20 @@ public class Moveplayer : MonoBehaviour
         Vector2 movement = inputVector * speed * Time.fixedDeltaTime;
        rigidBody2D.MovePosition(rigidBody2D.position + movement);
 
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+
+            TakeDamage(1f);
+        }
+
+    }
+    private void Die()
+    {
+        SceneManager.LoadScene("GameOver");
     }
 }
 

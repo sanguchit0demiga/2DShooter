@@ -33,11 +33,20 @@ public class BulletTrail : MonoBehaviour
            
             if (hit.collider.CompareTag("Enemy"))
             {
-                
+                WhiteCatPatrol enemy3 = hit.collider.GetComponent<WhiteCatPatrol>();
+                OrangeEnemy enemy2 = hit.collider.GetComponent<OrangeEnemy>();
                 BlackCatEnemy enemy = hit.collider.GetComponent<BlackCatEnemy>();
                 if (enemy != null)
                 {
-                  //  enemy.TakeDamage(1);
+                  enemy.TakeDamage(1);
+                }
+                if (enemy2 != null)
+                {
+                    enemy2.TakeDamage(1);
+                }
+                if (enemy3 != null)
+                {
+                    enemy3.TakeDamage(1);
                 }
             }
 

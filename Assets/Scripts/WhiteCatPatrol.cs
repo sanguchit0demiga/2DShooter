@@ -3,12 +3,52 @@ using UnityEngine;
 
 public class WhiteCatPatrol : MonoBehaviour
 {
+    [SerializeField] private HealthBar healthBar;
+    [SerializeField] private float maxHealth;
+    [SerializeField] private GameObject DieEffect;
     [SerializeField] private float speed = 2f;
     [SerializeField] private float waitTime = 2f;
     [SerializeField] private Transform[] waypoints;
 
     private int currentWaypoint = 0;
     private bool isWaiting = false;
+    private SpriteRenderer spriteRenderer;
+    private float health;
+
+
+    public void Start()
+    {
+        health = maxHealth;
+        healthBar.UpdateHealthBar(maxHealth, health);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    public void TakeDamage(float damage)
+    {
+        StartCoroutine(GetDamage(damage));
+
+    }
+
+    IEnumerator GetDamage(float damage)
+    {
+        float damageDuration = 0.1f;
+        health -= damage;
+        healthBar.UpdateHealthBar(maxHealth, health);
+
+
+        if (health > 0f)
+        {
+            spriteRenderer.color = Color.red;
+            yield return new WaitForSeconds(damageDuration);
+            spriteRenderer.color = Color.white;
+        }
+        else
+        {
+            //Gamemanager.Instance.AddScore(100);
+            Instantiate(DieEffect, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+    }
 
     void Update()
     {
@@ -16,7 +56,8 @@ public class WhiteCatPatrol : MonoBehaviour
         {
             Patrol();
         }
-    }
+        }
+    
 
     private void Patrol()
     {
