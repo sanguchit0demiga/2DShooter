@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public TMP_Text enemiesKilledText;
-    private static int enemiesKilled = 0;
-    public int enemiesToWin = 20;
-
+    public TMP_Text enemiesRemainingText;
+    private static int enemiesRemaining = 20;  
+    public int totalEnemies = 20;  
     public TMP_Text coinScoreText;
     private static int coinScore = 0;
 
-  
+
     [SerializeField] private float playerHealth = 100f;
     [SerializeField] private float maxHealth = 100f;
 
     void Start()
     {
-        UpdateEnemiesKilledText();
+        UpdateEnemiesRemainingText();
+
         UpdateCoinScoreText();
     }
 
@@ -32,15 +32,16 @@ public class GameController : MonoBehaviour
             playerHealth = maxHealth;
         }
 
-        Debug.Log("Player Health: " + playerHealth);
+
     }
 
     public static void EnemyKilled()
     {
-        enemiesKilled++;
-        FindObjectOfType<GameController>().UpdateEnemiesKilledText();
+        enemiesRemaining--;  
+        FindObjectOfType<GameController>().UpdateEnemiesRemainingText(); 
 
-        if (enemiesKilled >= FindObjectOfType<GameController>().enemiesToWin)
+      
+        if (enemiesRemaining <= 0)
         {
             FindObjectOfType<GameController>().Victory();
         }
@@ -52,9 +53,9 @@ public class GameController : MonoBehaviour
         UpdateCoinScoreText();
     }
 
-    public void UpdateEnemiesKilledText()
+    public void UpdateEnemiesRemainingText()
     {
-        enemiesKilledText.text = "Cats killed: " + enemiesKilled;
+        enemiesRemainingText.text = "Cats remaining: " + enemiesRemaining;
     }
 
     public void UpdateCoinScoreText()

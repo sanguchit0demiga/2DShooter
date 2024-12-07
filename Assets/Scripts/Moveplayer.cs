@@ -103,6 +103,8 @@ public class Moveplayer : MonoBehaviour
         {
 
             TakeDamage(1f);
+            GameController.EnemyKilled();  
+            Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Heart"))
         {
