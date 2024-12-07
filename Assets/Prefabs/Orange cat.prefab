@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2419253184027763640}
   - component: {fileID: 748728441227605271}
   - component: {fileID: 5976774810125960195}
+  - component: {fileID: 9080372374425859205}
   m_Layer: 8
   m_Name: Orange cat
   m_TagString: Enemy
@@ -163,6 +164,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 7797017242362262767, guid: 0644abc90debc854d863a0ef5f44de68,
     type: 3}
   DieEffect: {fileID: 53143478486487052, guid: 5e7fa5a59265dd940b5b2f602de9d63b, type: 3}
+  enemiesKilledText: {fileID: 0}
 --- !u!50 &5976774810125960195
 Rigidbody2D:
   serializedVersion: 4
@@ -190,6 +192,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &9080372374425859205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196621187623796607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7ccbc73612a7647ba3f3f4905afdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Heart: {fileID: 2221910943892261583, guid: 68e6681ec4f16214cbaa5da43afd8036, type: 3}
+  Coin: {fileID: 5142891128499606505, guid: bb8751b4038e9ce459aaace3f9a1a343, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: 39e62260554a5064bb28604cb3e11e42, type: 2}
+  - {fileID: 11400000, guid: d327b55d81be595458b1b81b6866e352, type: 2}
 --- !u!1 &3379283475120015980
 GameObject:
   m_ObjectHideFlags: 0

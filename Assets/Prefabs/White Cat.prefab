@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 7017702689752691774}
   - component: {fileID: 9156369025819412206}
   - component: {fileID: 3341063153656833037}
+  - component: {fileID: -4329938876290064195}
   m_Layer: 8
   m_Name: White Cat
   m_TagString: Enemy
@@ -229,7 +230,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1869315837
   m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -120382413, guid: 7eac5270efcdc4043bccba1af8e50f1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -324,12 +325,7 @@ MonoBehaviour:
   DieEffect: {fileID: 53143478486487052, guid: 5e7fa5a59265dd940b5b2f602de9d63b, type: 3}
   speed: 1.5
   waitTime: 1.5
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  waypointTag: Waypoint
 --- !u!50 &3341063153656833037
 Rigidbody2D:
   serializedVersion: 4
@@ -357,6 +353,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-4329938876290064195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6608414829952801942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7ccbc73612a7647ba3f3f4905afdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Heart: {fileID: 2221910943892261583, guid: 68e6681ec4f16214cbaa5da43afd8036, type: 3}
+  Coin: {fileID: 5142891128499606505, guid: bb8751b4038e9ce459aaace3f9a1a343, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: 39e62260554a5064bb28604cb3e11e42, type: 2}
+  - {fileID: 11400000, guid: d327b55d81be595458b1b81b6866e352, type: 2}
 --- !u!1 &9049158501631329436
 GameObject:
   m_ObjectHideFlags: 0

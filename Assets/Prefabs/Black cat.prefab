@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 5027326332931877996}
   - component: {fileID: 2394292419815003834}
   - component: {fileID: 6010844882382071263}
+  - component: {fileID: 6223733724757785232}
   m_Layer: 8
   m_Name: Black cat
   m_TagString: Enemy
@@ -427,7 +428,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.5
   minDistance: 0.5
-  player: {fileID: 0}
   DieEffect: {fileID: 53143478486487052, guid: 5e7fa5a59265dd940b5b2f602de9d63b, type: 3}
   maxHealth: 6
   healthBar: {fileID: 7032714337951135844}
+--- !u!114 &6223733724757785232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123054389316984953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e7ccbc73612a7647ba3f3f4905afdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Heart: {fileID: 2221910943892261583, guid: 68e6681ec4f16214cbaa5da43afd8036, type: 3}
+  Coin: {fileID: 5142891128499606505, guid: bb8751b4038e9ce459aaace3f9a1a343, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: 39e62260554a5064bb28604cb3e11e42, type: 2}
+  - {fileID: 11400000, guid: d327b55d81be595458b1b81b6866e352, type: 2}

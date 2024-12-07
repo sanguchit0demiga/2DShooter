@@ -54,9 +54,13 @@ public class BlackCatEnemy : MonoBehaviour
         }
         else
         {
-            Instantiate(DieEffect, transform.position, Quaternion.identity);
+            GameObject effectInstance = Instantiate(DieEffect, transform.position, Quaternion.identity);
+            Destroy(effectInstance, 0.5f);
+
             GameController.EnemyKilled();
+            GetComponent<LootBag>().InstantiateLoot(transform.position);
             Destroy(gameObject);
+
         }
     }
 

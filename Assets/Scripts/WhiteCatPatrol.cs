@@ -8,21 +8,37 @@ public class WhiteCatPatrol : MonoBehaviour
     [SerializeField] private GameObject DieEffect;
     [SerializeField] private float speed = 2f;
     [SerializeField] private float waitTime = 2f;
-    [SerializeField] private Transform[] waypoints;
+    [SerializeField] private string waypointTag = "Waypoint";
 
+    private Transform[] waypoints;
     private int currentWaypoint = 0;
     private bool isWaiting = false;
     private SpriteRenderer spriteRenderer;
     private float health;
-    public static int enemiesKilled = 0;
 
-    public void Start()
+    void Start()
     {
         health = maxHealth;
         healthBar.UpdateHealthBar(maxHealth, health);
         spriteRenderer = GetComponent<SpriteRenderer>();
 
+        GameObject[] waypointObjects = GameObject.FindGameObjectsWithTag(waypointTag);
+        waypoints = new Transform[waypointObjects.Length];
+        for (int i = 0; i < waypointObjects.Length; i++)
+        {
+            waypoints[i] = waypointObjects[i].transform;
+        }
 
+        float minDistance = Mathf.Infinity;
+        for (int i = 0; i < waypoints.Length; i++)
+        {
+            float distance = Vector2.Distance(transform.position, waypoints[i].position);
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                currentWaypoint = i;
+            }
+        }
     }
 
     public void TakeDamage(float damage)
@@ -44,8 +60,11 @@ public class WhiteCatPatrol : MonoBehaviour
         }
         else
         {
-            Instantiate(DieEffect, transform.position, Quaternion.identity);
+            GameObject effectInstance = Instantiate(DieEffect, transform.position, Quaternion.identity);
+            Destroy(effectInstance, 0.5f);
+
             GameController.EnemyKilled();
+            GetComponent<LootBag>().InstantiateLoot(transform.position);
             Destroy(gameObject);
         }
     }

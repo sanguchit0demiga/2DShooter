@@ -1,46 +1,69 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public TMP_Text enemiesKilledText; 
+    public TMP_Text enemiesKilledText;
     private static int enemiesKilled = 0;
     public int enemiesToWin = 20;
 
+    public TMP_Text coinScoreText;
+    private static int coinScore = 0;
+
+  
+    [SerializeField] private float playerHealth = 100f;
+    [SerializeField] private float maxHealth = 100f;
+
     void Start()
     {
-        UpdateEnemiesKilledText(); 
+        UpdateEnemiesKilledText();
+        UpdateCoinScoreText();
     }
 
-
-    public static void EnemyKilled()  
+   
+    public void IncreasePlayerHealth(float amount)
     {
-        enemiesKilled++; 
+        playerHealth += amount;
 
        
+        if (playerHealth > maxHealth)
+        {
+            playerHealth = maxHealth;
+        }
+
+        Debug.Log("Player Health: " + playerHealth);
+    }
+
+    public static void EnemyKilled()
+    {
+        enemiesKilled++;
         FindObjectOfType<GameController>().UpdateEnemiesKilledText();
 
-        
         if (enemiesKilled >= FindObjectOfType<GameController>().enemiesToWin)
         {
-            FindObjectOfType<GameController>().Victory(); 
+            FindObjectOfType<GameController>().Victory();
         }
     }
 
-
-
-
-    void UpdateEnemiesKilledText()
+    public void IncreaseCoinScore(int amount)
     {
-        enemiesKilledText.text = "Cats killed: " + enemiesKilled; 
+        coinScore += amount;
+        UpdateCoinScoreText();
     }
 
-    void Victory()
+    public void UpdateEnemiesKilledText()
     {
+        enemiesKilledText.text = "Cats killed: " + enemiesKilled;
+    }
 
+    public void UpdateCoinScoreText()
+    {
+        coinScoreText.text = "Coins: " + coinScore;
+    }
+
+    public void Victory()
+    {
         SceneManager.LoadScene("Win");
     }
 }

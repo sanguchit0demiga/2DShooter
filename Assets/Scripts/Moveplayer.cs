@@ -40,6 +40,11 @@ public class Moveplayer : MonoBehaviour
 
         }
     }
+    public void GanarVida(float cantidad)
+    {
+        vida = Mathf.Min(vida + cantidad, maxvida);
+        barraDeVida.CambiarVidaActual(vida);
+    }
 
     void Update()
     {
@@ -99,12 +104,25 @@ public class Moveplayer : MonoBehaviour
 
             TakeDamage(1f);
         }
+        if (collision.gameObject.CompareTag("Heart"))
+        {
+            GanarVida(1f);
+        }
 
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            LootBag lootBag = collision.gameObject.GetComponent<LootBag>();
+            if (lootBag != null)
+            {
+                lootBag.CollectCoin(collision.gameObject); 
+            }
+        }
     }
+
     private void Die()
     {
         SceneManager.LoadScene("GameOver");
+
     }
 }
-
 

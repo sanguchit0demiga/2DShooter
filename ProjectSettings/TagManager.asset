@@ -10,6 +10,7 @@ TagManager:
   - Hands
   - Audio
   - Waypoint
+  - Coin
   layers:
   - Default
   - TransparentFX
