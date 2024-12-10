@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class GameController : MonoBehaviour
 {
@@ -9,13 +10,15 @@ public class GameController : MonoBehaviour
     public int totalEnemies = 20;  
     public TMP_Text coinScoreText;
     private static int coinScore = 0;
-
+    
+    public int score;
 
     [SerializeField] private float playerHealth = 100f;
     [SerializeField] private float maxHealth = 100f;
 
     void Start()
     {
+        ResetGame();
         UpdateEnemiesRemainingText();
 
         UpdateCoinScoreText();
@@ -66,5 +69,13 @@ public class GameController : MonoBehaviour
     public void Victory()
     {
         SceneManager.LoadScene("Win");
+    }
+
+    public void ResetGame()
+    {
+        score = 0;
+        coinScore = 0;
+        enemiesRemaining =20;
+        UpdateCoinScoreText();
     }
 }

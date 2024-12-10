@@ -12,6 +12,11 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private AudioSource backgroundMusic;
     [SerializeField] private GameObject healthBar;
     [SerializeField] private GameObject scoreText;
+    [SerializeField] private GameObject coinCounterText;
+    [SerializeField] private GameObject coin;
+    [SerializeField] private GameController gameController;
+
+    public static int coinsCollected = 0;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -36,6 +41,8 @@ public class PauseMenu : MonoBehaviour
         AudioListener.pause = true;
         healthBar.SetActive(false);
         scoreText.SetActive(false);
+        coinCounterText.SetActive(false);
+        coin.SetActive(false);
     }
 
     public void Resume()
@@ -47,6 +54,10 @@ public class PauseMenu : MonoBehaviour
         AudioListener.pause = false;
         healthBar.SetActive(true);
         scoreText.SetActive(true);
+        coinCounterText.SetActive(true);
+        coin.SetActive(true);
+        coinsCollected = 0;
+
     }
 
     public void Restart()
@@ -55,6 +66,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         AudioListener.pause = false;
+        if (gameController != null)
+        {
+            gameController.ResetGame();
+        }
+
     }
 
     public void Quit()

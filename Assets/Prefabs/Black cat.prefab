@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 2394292419815003834}
   - component: {fileID: 6010844882382071263}
   - component: {fileID: 6223733724757785232}
+  - component: {fileID: 6971998127930387676}
   m_Layer: 8
   m_Name: Black cat
   m_TagString: Enemy
@@ -346,7 +347,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1869315837
   m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 29325209, guid: c8f0e7e1d76fe1c409039ade1ac6c99c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -448,3 +449,30 @@ MonoBehaviour:
   lootList:
   - {fileID: 11400000, guid: 39e62260554a5064bb28604cb3e11e42, type: 2}
   - {fileID: 11400000, guid: d327b55d81be595458b1b81b6866e352, type: 2}
+--- !u!50 &6971998127930387676
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5123054389316984953}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 500
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

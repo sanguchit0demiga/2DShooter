@@ -810,6 +810,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone Lantern (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1982,6 +1992,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: 7277dd75e907b27448ec1de08238d0bb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 7277dd75e907b27448ec1de08238d0bb,
         type: 3}
       propertyPath: m_RootOrder
@@ -2036,6 +2051,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 7277dd75e907b27448ec1de08238d0bb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: 7277dd75e907b27448ec1de08238d0bb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: 7277dd75e907b27448ec1de08238d0bb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2665,10 +2695,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: f3cc2373308c11848977b28d974a9de0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: f3cc2373308c11848977b28d974a9de0,
         type: 3}
       propertyPath: m_Name
       value: PF Props Pot C
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: f3cc2373308c11848977b28d974a9de0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922481, guid: f3cc2373308c11848977b28d974a9de0,
         type: 3}
@@ -12394,6 +12434,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone Lantern (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12877,6 +12927,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone T3
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: ba7fef4c928d8c4459466bf93171730e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: ba7fef4c928d8c4459466bf93171730e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13302,6 +13362,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Stone Bench S
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 8fd7cba4384381e4aad6dc90158fc9d5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 8fd7cba4384381e4aad6dc90158fc9d5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13856,6 +13926,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone T6
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: d5762f992ea3bd544bb8287f66e8f844,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: d5762f992ea3bd544bb8287f66e8f844,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13943,10 +14023,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: ac719b1d0f58391469cc19fd947ca44c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: ac719b1d0f58391469cc19fd947ca44c,
         type: 3}
       propertyPath: m_Name
       value: PF Props Pot A
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: ac719b1d0f58391469cc19fd947ca44c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922481, guid: ac719b1d0f58391469cc19fd947ca44c,
         type: 3}
@@ -15861,6 +15951,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone T4
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 4c4e80b50a323dc478f7c84e0b8fdad2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 4c4e80b50a323dc478f7c84e0b8fdad2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16464,7 +16564,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cats remaining:'
+  m_text: 'Cats remaining: 20'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c64a54febfa2b80468d85cf394390177, type: 2}
   m_sharedMaterial: {fileID: -7735716622768771469, guid: c64a54febfa2b80468d85cf394390177,
@@ -16528,7 +16628,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -93.90637, w: 0}
+  m_margin: {x: -13.09639, y: 0, z: -145.22638, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -16558,7 +16658,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 36, y: -46}
+  m_AnchoredPosition: {x: 46.3, y: -46}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!4 &321180997 stripped
@@ -17269,10 +17369,20 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1360264394546084190, guid: 4fad9c4de6b725a43bb1200ed9479c08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 1360264394729772843, guid: 4fad9c4de6b725a43bb1200ed9479c08,
         type: 3}
       propertyPath: m_Name
       value: PF Props Rune Pillar X3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360264394729772843, guid: 4fad9c4de6b725a43bb1200ed9479c08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 1360264394729772852, guid: 4fad9c4de6b725a43bb1200ed9479c08,
         type: 3}
@@ -17328,6 +17438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360264395099639754, guid: 4fad9c4de6b725a43bb1200ed9479c08,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20113,10 +20228,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: fb2df5b680b64b449a78162ebcd98e97,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: fb2df5b680b64b449a78162ebcd98e97,
         type: 3}
       propertyPath: m_Name
       value: PF Props Crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: fb2df5b680b64b449a78162ebcd98e97,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922481, guid: fb2df5b680b64b449a78162ebcd98e97,
         type: 3}
@@ -20403,6 +20528,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone T1
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 6d69371a87148ee4dac7b2b814437ffd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 6d69371a87148ee4dac7b2b814437ffd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20670,7 +20805,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 380748619}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21902,6 +22037,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -21956,6 +22096,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26959,10 +27114,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5628018140324151388, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628018140324151388, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5628018141983903104, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
         type: 3}
       propertyPath: m_Name
       value: PF Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628018141983903104, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5628018141983903104, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
         type: 3}
@@ -27024,6 +27194,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5628018141983903107, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628018141983903107, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628018141983903107, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -44025399
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -27061,10 +27246,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 3256064665225810532, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974917516961, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974917516961, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974933568967, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
@@ -27128,8 +27328,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622418, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974975622418, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975975660753996, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27329,6 +27544,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Plant - Tree 01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -27383,6 +27603,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28566,6 +28801,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Road Sign W
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: 5c635e5bc09c93043a53ee0e17e89d0f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 5c635e5bc09c93043a53ee0e17e89d0f,
         type: 3}
       propertyPath: m_RootOrder
@@ -28620,6 +28860,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 5c635e5bc09c93043a53ee0e17e89d0f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28850,6 +29095,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Stone Lantern (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29283,6 +29538,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: 3fcd8726c7cd53345947949baefbab35,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 3fcd8726c7cd53345947949baefbab35,
         type: 3}
       propertyPath: m_RootOrder
@@ -29337,6 +29597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 3fcd8726c7cd53345947949baefbab35,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30875,10 +31140,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 5055698509786747552, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 5055698509961064897, guid: 6d6991dbbdeecb1488bbf78c063d1235,
         type: 3}
       propertyPath: m_Name
       value: PF Props Rune Pillar X2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055698509961064897, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5055698509961064898, guid: 6d6991dbbdeecb1488bbf78c063d1235,
         type: 3}
@@ -30934,6 +31209,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055698510374027886, guid: 6d6991dbbdeecb1488bbf78c063d1235,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31764,6 +32044,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Plant - Tree 01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -31819,6 +32104,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31842,6 +32142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: 413081fc53a78a043b38591243616398,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 413081fc53a78a043b38591243616398,
         type: 3}
@@ -31897,6 +32202,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 413081fc53a78a043b38591243616398,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33972,7 +34282,7 @@ Transform:
   m_GameObject: {fileID: 756351514}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 16.5}
+  m_LocalPosition: {x: 0, y: 0, z: 11.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -33999,6 +34309,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 6644944588469475090, guid: 4be821d0b78ad5043985b57b738e951b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589615368675, guid: 4be821d0b78ad5043985b57b738e951b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589679723019, guid: 4be821d0b78ad5043985b57b738e951b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6644944589867386884, guid: 4be821d0b78ad5043985b57b738e951b,
         type: 3}
       propertyPath: m_RootOrder
@@ -34061,8 +34386,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644944589867386885, guid: 4be821d0b78ad5043985b57b738e951b,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589867386885, guid: 4be821d0b78ad5043985b57b738e951b,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589878580094, guid: 4be821d0b78ad5043985b57b738e951b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589913744277, guid: 4be821d0b78ad5043985b57b738e951b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35370,10 +35710,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 3256064665225810532, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974917516961, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974917516961, guid: a92434f05fc24a2408687e0356655548,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974933568967, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974933568967, guid: a92434f05fc24a2408687e0356655548,
         type: 3}
@@ -35442,13 +35797,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622418, guid: a92434f05fc24a2408687e0356655548,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974975622418, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6075975975660753996, guid: a92434f05fc24a2408687e0356655548,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975975660753996, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37518,10 +37888,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: f6a5710827e32d3489da2c249e3bc400,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: f6a5710827e32d3489da2c249e3bc400,
         type: 3}
       propertyPath: m_Name
       value: PF Props Stone Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: f6a5710827e32d3489da2c249e3bc400,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922481, guid: f6a5710827e32d3489da2c249e3bc400,
         type: 3}
@@ -37665,6 +38045,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: 39562e88b536753438a3153c5fbdf7b8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 39562e88b536753438a3153c5fbdf7b8,
         type: 3}
       propertyPath: m_RootOrder
@@ -37719,6 +38104,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 39562e88b536753438a3153c5fbdf7b8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37797,6 +38187,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Stone Bench S (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 8fd7cba4384381e4aad6dc90158fc9d5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 8fd7cba4384381e4aad6dc90158fc9d5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41537,6 +41937,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 3256064665225810532, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974917516961, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974933568967, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: 295e819650a63784185fc3d55ce9e650,
         type: 3}
       propertyPath: m_RootOrder
@@ -41599,8 +42014,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622418, guid: 295e819650a63784185fc3d55ce9e650,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974975622418, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975975660753996, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: 295e819650a63784185fc3d55ce9e650,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42011,10 +42441,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: 63ee4b6a40c55fd429759b807832ded1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: 63ee4b6a40c55fd429759b807832ded1,
         type: 3}
       propertyPath: m_Name
       value: PF Props Pot B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: 63ee4b6a40c55fd429759b807832ded1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922481, guid: 63ee4b6a40c55fd429759b807832ded1,
         type: 3}
@@ -43069,6 +43509,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone T7
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: f826bf48ad5bedc4ab6cabe6c4e498e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: f826bf48ad5bedc4ab6cabe6c4e498e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43086,6 +43536,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Plant - Tree 01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
@@ -43141,6 +43596,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -44854,6 +45324,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone Bench W
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 8eb546cfc24c8c24196899cee5797135,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 8eb546cfc24c8c24196899cee5797135,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 7947911505844789837, guid: 8eb546cfc24c8c24196899cee5797135,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44947,8 +45427,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6644944588469475090, guid: b95acdc3b0c1a444c87723520fbab2f0,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944588469475090, guid: b95acdc3b0c1a444c87723520fbab2f0,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589615368675, guid: b95acdc3b0c1a444c87723520fbab2f0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589679723019, guid: b95acdc3b0c1a444c87723520fbab2f0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6644944589867386884, guid: b95acdc3b0c1a444c87723520fbab2f0,
         type: 3}
@@ -45012,13 +45507,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6644944589867386885, guid: b95acdc3b0c1a444c87723520fbab2f0,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589867386885, guid: b95acdc3b0c1a444c87723520fbab2f0,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6644944589878580094, guid: b95acdc3b0c1a444c87723520fbab2f0,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589878580094, guid: b95acdc3b0c1a444c87723520fbab2f0,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6644944589913744277, guid: b95acdc3b0c1a444c87723520fbab2f0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6644944589913744277, guid: b95acdc3b0c1a444c87723520fbab2f0,
         type: 3}
@@ -45147,7 +45657,7 @@ PrefabInstance:
     - target: {fileID: 2055102311959635369, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
       propertyPath: m_Layer
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
@@ -45222,7 +45732,7 @@ PrefabInstance:
     - target: {fileID: 2055102312182832482, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
       propertyPath: m_Layer
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2444991506894079395, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
@@ -45233,6 +45743,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: -44025399
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: 9e7797bb065982d4497d030f065d6e2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: 9e7797bb065982d4497d030f065d6e2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45247,6 +45767,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 3256064665225810532, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974917516961, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974933568967, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
         type: 3}
       propertyPath: m_RootOrder
@@ -45309,8 +45844,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622418, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974975622418, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975975660753996, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: b7a5fce6e52ebbf488a8e8516c6692cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45832,6 +46382,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone Coffin Vert
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: e54d3c80cde4e314eae0912eca6a93ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: e54d3c80cde4e314eae0912eca6a93ae,
         type: 3}
       propertyPath: m_RootOrder
@@ -45886,6 +46441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: e54d3c80cde4e314eae0912eca6a93ae,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46839,6 +47399,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone T2
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 713b33322b495794e92184973ece3034,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 713b33322b495794e92184973ece3034,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47069,6 +47639,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Stone Lantern (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -52301,7 +52881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1202698298}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Aim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52336,6 +52916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Crate Small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150476868300563372, guid: 2e2ac125e54a1e44780363d638b1df34,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8150476868300563375, guid: 2e2ac125e54a1e44780363d638b1df34,
         type: 3}
@@ -52391,6 +52976,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150476868737220289, guid: 2e2ac125e54a1e44780363d638b1df34,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -55161,6 +55751,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635369, guid: 6a057178eb028e94fb93bf39262ea3e8,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: 6a057178eb028e94fb93bf39262ea3e8,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -55218,6 +55813,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 6a057178eb028e94fb93bf39262ea3e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -55514,6 +56114,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Rune Pillar Broken
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 8728cc48d2747494893fd60426c06f6e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 8728cc48d2747494893fd60426c06f6e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505908315093, guid: 8728cc48d2747494893fd60426c06f6e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -55790,6 +56405,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: 6d9a1504606c57143b1a8bbc2249aabe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 6d9a1504606c57143b1a8bbc2249aabe,
         type: 3}
       propertyPath: m_RootOrder
@@ -55844,6 +56464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 6d9a1504606c57143b1a8bbc2249aabe,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -56445,7 +57070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1287869920}
-  m_Layer: 20
+  m_Layer: 21
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56685,10 +57310,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: fb2df5b680b64b449a78162ebcd98e97,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: fb2df5b680b64b449a78162ebcd98e97,
         type: 3}
       propertyPath: m_Name
       value: PF Props Crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: fb2df5b680b64b449a78162ebcd98e97,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922481, guid: fb2df5b680b64b449a78162ebcd98e97,
         type: 3}
@@ -66094,6 +66729,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: 6242b925f1d3e0d44a183102cd3d4c26,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 6242b925f1d3e0d44a183102cd3d4c26,
         type: 3}
       propertyPath: m_RootOrder
@@ -66149,6 +66789,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 6242b925f1d3e0d44a183102cd3d4c26,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66177,7 +66822,7 @@ GameObject:
   - component: {fileID: 1485322385}
   - component: {fileID: 1485322384}
   - component: {fileID: 1485322387}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Gun
   m_TagString: Rifle
   m_Icon: {fileID: 0}
@@ -66222,8 +66867,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1869315837
-  m_SortingLayer: 1
+  m_SortingLayerID: -44025399
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 29abfca53a7b2134a8cb05d3447cac50, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -69769,10 +70414,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: 63ee4b6a40c55fd429759b807832ded1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: 63ee4b6a40c55fd429759b807832ded1,
         type: 3}
       propertyPath: m_Name
       value: PF Props Pot B
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: 63ee4b6a40c55fd429759b807832ded1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: 63ee4b6a40c55fd429759b807832ded1,
         type: 3}
@@ -70298,6 +70953,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Plant - Tree 01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -70355,8 +71015,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -73812,6 +74487,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Plant - Tree 01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -73866,6 +74546,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -75425,7 +76120,7 @@ PrefabInstance:
     - target: {fileID: 2055102311959635369, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
       propertyPath: m_Layer
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
@@ -75495,7 +76190,7 @@ PrefabInstance:
     - target: {fileID: 2055102312182832482, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
       propertyPath: m_Layer
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2444991506894079395, guid: 9e7797bb065982d4497d030f065d6e2f,
         type: 3}
@@ -75516,6 +76211,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayerID
       value: -1869315837
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: 9e7797bb065982d4497d030f065d6e2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: 9e7797bb065982d4497d030f065d6e2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76495,12 +77200,17 @@ PrefabInstance:
     - target: {fileID: 7947911505737750450, guid: 91afc0649ae41a64c860a5d49f05ff40,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750450, guid: 91afc0649ae41a64c860a5d49f05ff40,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7947911505737750450, guid: 91afc0649ae41a64c860a5d49f05ff40,
         type: 3}
       propertyPath: m_SortingLayerID
-      value: -44025399
+      value: -1869315837
       objectReference: {fileID: 0}
     - target: {fileID: 7947911505737750455, guid: 91afc0649ae41a64c860a5d49f05ff40,
         type: 3}
@@ -77606,6 +78316,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Chest
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: 99597c7b4aa47494fb2b6061505735da,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 99597c7b4aa47494fb2b6061505735da,
         type: 3}
       propertyPath: m_RootOrder
@@ -77660,6 +78375,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 99597c7b4aa47494fb2b6061505735da,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -78230,6 +78950,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone Lantern (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 84395be60ff2def43bb58fa039614eab,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78335,8 +79065,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3256064665225810532, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256064665225810532, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974917516961, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974917516961, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
@@ -78347,6 +79087,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974933568967, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974933568967, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
@@ -78415,13 +79160,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622418, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974975622418, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6075975975660753996, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975975660753996, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 6075975976084253374, guid: 78e9efbdf9b33994da8dfbe530f65e5e,
         type: 3}
@@ -79598,6 +80358,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Brick T2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 5d42979a3c318c341b37b4b1f2c85750,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 5d42979a3c318c341b37b4b1f2c85750,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -81288,6 +82058,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -81342,6 +82117,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -82739,10 +83529,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2577585254280797810, guid: ac719b1d0f58391469cc19fd947ca44c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922480, guid: ac719b1d0f58391469cc19fd947ca44c,
         type: 3}
       propertyPath: m_Name
       value: PF Props Pot A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2577585254963922480, guid: ac719b1d0f58391469cc19fd947ca44c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2577585254963922481, guid: ac719b1d0f58391469cc19fd947ca44c,
         type: 3}
@@ -82818,6 +83618,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 2055102311959635369, guid: 0505844a909d2ea4996c19b67b2a40b9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: 0505844a909d2ea4996c19b67b2a40b9,
         type: 3}
       propertyPath: m_RootOrder
@@ -82873,6 +83678,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: 0505844a909d2ea4996c19b67b2a40b9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -82886,6 +83696,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1287869920}
     m_Modifications:
+    - target: {fileID: 3256064665225810532, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974917516961, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974933568967, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622417, guid: a92434f05fc24a2408687e0356655548,
         type: 3}
       propertyPath: m_RootOrder
@@ -82948,8 +83773,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075975974975622418, guid: a92434f05fc24a2408687e0356655548,
         type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975974975622418, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975975660753996, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6075975976084253374, guid: a92434f05fc24a2408687e0356655548,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83485,6 +84325,7 @@ MonoBehaviour:
   enemiesRemainingText: {fileID: 310774417}
   totalEnemies: 20
   coinScoreText: {fileID: 1792739866}
+  score: 0
   playerHealth: 5
   maxHealth: 5
 --- !u!4 &1932440875 stripped
@@ -83560,6 +84401,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PF Props Stone T2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: 713b33322b495794e92184973ece3034,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: 713b33322b495794e92184973ece3034,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -85763,6 +86614,9 @@ MonoBehaviour:
   backgroundMusic: {fileID: 2028060523}
   healthBar: {fileID: 3749283}
   scoreText: {fileID: 310774416}
+  coinCounterText: {fileID: 1792739865}
+  coin: {fileID: 1589588391}
+  gameController: {fileID: 0}
 --- !u!114 &2028060519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86452,6 +87306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Plant - Tree 01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2055102311959635369, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 2055102311959635375, guid: f681a54372d73d74785b9c9d4ac477e8,
         type: 3}
       propertyPath: m_RootOrder
@@ -86506,6 +87365,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055102312182832482, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508116785346154267, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 8199604799029797720, guid: f681a54372d73d74785b9c9d4ac477e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -87927,6 +88801,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF Props Stone T3
       objectReference: {fileID: 0}
+    - target: {fileID: 7947911505737750455, guid: ba7fef4c928d8c4459466bf93171730e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947911505844789836, guid: ba7fef4c928d8c4459466bf93171730e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88898,7 +89782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5435249611797274610}
   - component: {fileID: 5532967516898591941}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Sprite-0001 (1)
   m_TagString: Hands
   m_Icon: {fileID: 0}
@@ -89034,7 +89918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2442801712404004292}
   - component: {fileID: 5303538674378528038}
-  m_Layer: 0
+  m_Layer: 21
   m_Name: Sprite-0001
   m_TagString: Hands
   m_Icon: {fileID: 0}
